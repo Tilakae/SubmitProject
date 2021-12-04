@@ -1,0 +1,401 @@
+*{
+    padding : 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+.logo{
+    border-radius: 50%;
+    width: 5rem;
+    height: 5rem;
+    margin-left: .8rem;
+    margin-top: .8rem;
+    background-color: lightcoral;
+    position: absolute;
+    border: 8px solid rgb(141, 230, 181);
+    overflow: hidden;
+    padding-right: 12px;
+}
+.mainmenu{
+    margin-top: .8rem;
+}
+.logo::before{
+    content: "";
+    position: absolute;
+    background-image: url(PPSLOGO.png);
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    
+
+}
+.separator{
+    position: absolute;
+margin-top: 1.8rem;
+margin-left: 8rem;
+    width: .2rem;
+    height: 3.5rem;
+    background-color: brown
+}
+.submenu{
+padding: 12px;
+height: auto;
+display: none;
+position: absolute;
+width: 80px;
+background-color: green;
+
+}
+.submenu a {
+    text-decoration: none;
+    color: black;
+    font-weight: 200;
+    border-bottom:1px solid oldlace;
+    background-size: cover;
+    background-position-y: 40px;
+  
+}
+.home{
+    margin-left: 180px;
+    margin-top: 1.6rem;
+    border: transparent;
+  border: transparent;
+  background:transparent;
+    padding: 8px;
+
+}
+.home a{
+    text-decoration: none;
+    color: white;
+    align-items: center;
+    text-align: center;
+    font-size: 16px;
+
+}
+.home a:hover{
+text-align: center;
+}
+.home i{
+    color: white;
+    margin-right: 18px;
+      font-size: 16px;
+    
+
+}
+.navbar{
+    display: inline-flex;
+background-color: green;position: absolute;    width:100%;
+    height: 8rem;
+    margin-bottom: -200px;
+}
+
+header{
+    width: 100%;
+    background: transparent;
+}
+.home:hover{
+    
+    color: white;
+    border : 3px solid white;
+    border-radius: 24px;
+    box-shadow:9px 9px 9px 9px green;  
+    padding: 12px;
+    
+
+}
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+
+#scroll_text{
+    width: 100%;
+color: white;
+font-family: 'Dancing Script', cursive;
+margin-top: -3%;
+
+}
+.why{
+    color: black;
+    font-style: bold;
+    font-family: 'Dancing Script', cursive;
+
+}
+.About_Us{
+    width: 40%;
+    float: left;
+    text-align: justify;
+    padding: 8px;
+    margin-right: 5rem;
+    position: absolute;
+    margin-left: 12%;
+    color:black;
+    font-weight: 500;
+}
+.Why {
+width: 40%;
+float: right;
+margin-top: 0%;
+text-align: justify;
+padding: 8px;
+margin-right: 1rem;
+position: fixed;
+margin-left: 55%;
+color:black;
+font-weight: 500;
+
+
+background-size: cover;
+position: absolute;
+}
+.background{
+    position: absolute;
+    opacity: 30%;
+    z-index: -1;
+    width: 100%;
+}
+.background_1{
+    position: absolute;
+    opacity: 30%;
+    z-index: -1;
+    width: 100%;
+    height: -4%;
+}
+.separator_1{
+    margin-left: 52.5%;
+    width: 2%;
+    height: 550px;
+    background-color: aqua;position: absolute;
+}
+
+table i{
+    font-size: 40px;
+    margin-top: 10px;
+    color: white;
+}
+table th{
+    padding: 12px;
+    justify-content: center;
+    background-color:darkcyan;
+    color: white;
+}
+footer{
+    background-color: green;
+    min-height: 440px;
+}
+.button{
+    width: 100px;
+    border: 10%;
+height: 40px;
+    margin-top: 2.2rem;
+    font-size: 12px;
+        padding: 12px ;
+        margin-left: +30px;
+    outline: none;
+    color: #fff;
+    background-image:linear-gradient(to right, #fb5283, #ff3527 ) ;
+    border-radius: 8px;
+    cursor: pointer;
+    transform: width 0.5s ;
+    padding: 5px;
+    border-radius: 24px;
+    }
+    .Social{
+        width: 25%;
+        color: white;
+        margin-left: .8rem;
+    }
+    .Social h1{
+        color: darkred;
+        font-weight: 400;
+        font-size: 22px;
+    }
+    #facebook {
+        color: white;
+    }
+    #icons a{
+        text-decoration: none;
+        color: white;
+        padding-left: 4px;
+    }
+    .adddress{
+        width: 30%;
+        margin-left: 28%;
+        margin-top: -90px;
+        position: absolute;
+
+    }
+    .address{
+        width: 30%;
+        margin-left: 28%;
+        margin-top: -90px;
+        position: absolute;
+    }
+    .adddress h1{
+font-size: 22px;
+color: darkred;
+font-weight: 400;
+margin-top: 0rem;
+    }
+    .padd{
+        color: white;
+        margin-left: 100px;
+        margin-top: -60px;
+        position: absolute;
+    }
+    iframe{
+        width: 22%;
+        padding-left: 4px;
+        height: 180px;
+        margin-left: 100px;
+    }
+    .pad{
+        color: white;
+        margin-left: 100px;
+        margin-top: -50px;
+        
+    }
+    .rad{
+        color: white;
+        margin-top: -12.5rem;
+        position: absolute;
+        margin-left: 220px;
+    }
+    .map{
+        margin-top: -19rem;
+        margin-left: 180px;
+        width: 22%;
+        margin-left: 30px;
+    }
+    .appointment{
+        float: right;
+        margin-top: -10.5rem;
+        margin-right: 9.9rem;
+    }
+    .appointment i {
+position: absolute;
+color   : palevioletred;
+padding-right: 12px;
+margin-top: 3px;
+margin-left: 10px;
+    }
+.appointment input{
+    width: 200px;
+    height: 30px;
+    padding-left: 32px;
+}
+.appointment button{
+    background-image:linear-gradient(to right, #fb5283, #ff3527 ) ;
+padding: 10px;
+color: white;
+}
+#ee{
+    position: absolute;
+color   : palevioletred;
+padding-right: 12px;
+margin-top: 1.7rem;
+margin-left: 1.4rem
+}
+.appointment label{
+    color: #fff;
+    font-size: 16px;
+}
+.appointment button:hover{
+    border-radius: 24px;
+    color: white;
+    background: green;
+    border: 2px solid white;
+}
+.appointment textarea{
+    width: 200px;
+    height: 60px;
+    padding-left: 32px;
+
+}
+.appointment input:focus{
+    border-radius: 2px solid black;
+}
+    .white{
+        font-size: 22px;
+        color: darkred;
+        font-weight: 400;
+        
+    }
+    .ending_1{
+        width: 8rem;
+        height: 8rem;
+background-color: white;
+margin-left: -800px;
+border-radius: 50%;
+margin-top: 10px;
+border: 9px solid black;
+position: absolute;
+    }
+    .ending_1::before{
+        content: '';
+        width: 100%;
+        height: 100%;
+        background-image: url(PPSLOGO.png);
+    position: absolute;
+    background-size: cover;
+    }
+    .ending_1{
+        border-radius: 50%;
+        width: 6rem;
+        height: 6rem;
+        margin-left: .8rem;
+        margin-top: 1.8rem;
+        background-color: lightcoral;
+        position: absolute;
+        border: 8px solid rgb(141, 230, 181);
+        overflow: hidden;
+        padding-right: 12px;
+        margin-left: -30rem;
+    }
+    
+    .ending_1::before{
+        content: "";
+        position: absolute;
+        background-image: url(PPSLOGO.png);
+        background-size: cover;
+        width: 100%;
+        height: 100%;
+    }
+    .ending{
+        color: white;
+        font-size: 20px;
+        margin-left: -21.9rem;
+        margin-top: 5rem;
+    }
+   .address{
+       color: darkred;
+       margin-left: 180px;
+       font-weight: 400;
+       font-size: -3px;
+   }
+   .address_1{
+       margin-left: 380px;
+       position: relative;
+       margin-top: -6rem;;
+   }
+   .address_1 iframe{
+       width: 12%;
+   }
+   .address_1 p{
+margin-left: -5px;
+   }
+   .rad{
+       padding-left: 250px;
+   }
+   .pad{
+       padding-left: 100px;
+   }
+   .Senior{
+       margin-left: 100px;
+       width: 12%;
+   }
+   .map{
+       padding-left: 00px;
+       margin-left: 30px;
+   }
+   .appointment{
+       margin-top: -15rem;
+   }
+  
